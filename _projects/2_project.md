@@ -2,7 +2,7 @@
 layout: page
 title: Ferroelectric Capacitor
 description: Ferroelectric Capacitor Fabrication and Characterization
-img: assets/img/proj02_sample_structure.jpg
+img: assets/img/proj02_sample_structure.png
 importance: 3
 category: physics
 ---
@@ -13,7 +13,7 @@ A side project was learning how to improve the quality of the ferroelectric thin
     <div class="col col-lg-2">
     </div>
     <div class="col-md-auto">
-        {% include figure.liquid path="assets/img/proj02_sample_structure.jpg" title="Ferroelectric capacitor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj02_sample_structure.png" title="Ferroelectric capacitor" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="row justify-content-md-center">
     </div>

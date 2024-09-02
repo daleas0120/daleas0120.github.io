@@ -62,7 +62,7 @@ and when the fixed value sites take a value of $$J=-1$$ (only $$J=1$$ sites are 
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/gif/proj03_MCIMS_down.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/gif/proj03_MCIMS_pinned_down.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -70,7 +70,7 @@ and when the fixed value sites take a value of $$J=-1$$ (only $$J=1$$ sites are 
 Plotting this as a phase-transition diagram with the order paramter
 
 <center>
-$$n_{HS} = \frac{1 + \hat{{\sigma}}}{2}$$
+$$n_{HS} = \frac{1 + \hat{\sigma}}{2}$$
 </center>
 
 we can see that the transition point from low-spin dominated to high-spin dominated state occurs at a different temperature depending on whether pinned sites are pinned to $$J=1$$ "FE pinned up", pinned to $$J=-1$$ "FE pinned down", or non interacting.  The change in temperature indicates a different value for the energy gap $$\Delta$$.
