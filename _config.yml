@@ -7,8 +7,8 @@ first_name: Ashley
 middle_name: S.
 last_name: Dale
 email: daleas@iu.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Personal website for Ashley S. Dale.
+description:  Personal website for Ashley S. Dale. # the ">" symbol means to ignore newlines until "footer_text:"
+
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: physics, machine learning, spintronics, spin-crossover, computational physics, post-doc, # add your own keywords or leave empty
