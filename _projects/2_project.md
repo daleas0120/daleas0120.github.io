@@ -1,81 +1,55 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Ferroelectric Capacitor
+description: Ferroelectric Capacitor Fabrication and Characterization
+img: assets/img/proj02_sample_structure.jpg
+importance: 3
+category: physics
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A side project was learning how to improve the quality of the ferroelectric thin films we fabricated in our lab using poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP).  Samples were fabricated with the following structure to avoid edge affects:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+    </div>
+    <div class="col-md-auto">
+        {% include figure.html path="assets/img/proj02_sample_structure.jpg" title="Ferroelectric capacitor" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="row justify-content-md-center">
+    </div>
+</div>
+<div class="caption">
+    Ferroelectric capacitor structure visualization.  The SiO2 wafer substrate is shown in dark grey, with a bottom electrode formed by a thin films of Cu (orange) capped by an Al thin film (light grey) partially covering the substrate.  The ferroelectric layer is shown in clear, with the PVDF-HFP polymer chains oriented on the substrate .  The top electrode is another Al thin film (light grey) wih a thicker thin film of Au (yellow).
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The differences in samples between those fabricated manually and those from an automated system are visible to the eye.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/proj02_bad_film.png" title="Sample dipped by hand" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/proj02_lb_dep_sample.jpg" title="Sample dipped by automated Langmuir Blodgett deposition system." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    (LEFT) A PVDF-HFP thin film on SiO2 formed by <strong>manual</strong> Langmuir Blodgett deposition.  (RIGHT)  A PVDF-HFP thin film formed by <strong>automated</strong> Langmuir Blodgett deposition.  A slight irridescence is visible; always a good sign.
 </div>
+
+A simple Sawyer-Tower circuit can do the trick for hysteresis measurements, but we used Radiant Ferroelectric tester to evaluate the improvement in thin film quality
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/proj02_60ML_hand.png" title="Sample dipped by hand" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/proj02_80ML_LB.png" title="Sample dipped by automated Langmuir Blodgett deposition system." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    (LEFT) Hysteresis characterization of a PVDF-HFP thin film formed by <strong>manual</strong> Langmuir Blodgett deposition.  (RIGHT)  Hysteresis characterization of a PVDF-HFP thin film formed by <strong>automated</strong> Langmuir Blodgett deposition.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+[1]<a href="http://ulib.iupui.edu/cgi-bin/proxy.pl?url=http://search.proquest.com/dissertations-theses/developing-approach-improve-beta-phase-properties/docview/2827705046/se-2?accountid=7398">Dale, A. S. (2020). Developing an Approach to Improve Beta-Phase Properties in Ferroelectric PVDF-HFP Thin Films. Purdue University.</a>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[2]<a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.0c02209">Mosey, A., Dale, A. S., Hao, G., N’Diaye, A., Dowben, P. A., & Cheng, R. (2020). Quantitative study of the energy changes in voltage-controlled spin crossover molecular thin films. The Journal of Physical Chemistry Letters, 11(19), 8231-8237.</a>

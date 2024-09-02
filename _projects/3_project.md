@@ -1,81 +1,91 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Ising Model Simulations
+description: 3D heterostructures and their activation energies
+img: assets/gif/proj_3_3DMCIMS.gif
+importance: 1
+category: physics
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Spin crossover systems have been successfully described[1] using an Ising-like Hamiltonian of the form
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<center>$H = -J \sum_{\langle N \rangle}\sigma_i \sigma_j + \mu \sum_{i} \sigma_i$</center>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+where $-J$ represents the interaction strength between the $i$th and $j$th site, $N$ represents the total number of sites, and $\m$ represents the mean field.  When combined with the Metropolis Hastings algorithm [2], simulations of how the system evolves can reveal some fun behaviors.
 
+We can represent the mean field of the bistable spin crossover molecule as
+
+<center>$\mu = \frac{\Delta}{2} - \frac{k_B T}{2} ln(g)$</center>
+
+where $\Delta$ is the energy gap between the high-spin and low-spin state of the molecule, $T$ is the thermodynamic temperature of the system, and $ln(g)$ is the degeneracy ratio between the high-spin and low-spin states.
+
+Here, a 3D lattice was simulated using fixed, non-interacting boundary conditions on the top and bottom of the cell, and periodic boundary conditions along the remaining dimensions.  This represents a spin crossover thin film, where the top and bottom of thin film interface has pinned sites which are unable to update.
+
+<center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/gif/proj_3_3DMCIMS.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Simulation of 3D Ising Lattice.  The top and bottom of the simulation cell have non-interacting sites, with the periodic boundary conditions along the remaining edges. Results presented at 2021 APS April meeting [3]. 
 </div>
+</center>
+
+The compact minority-state domain is observed to persist and permeate the simulation cell due to the nearest-neighbors interaction[3].  This agrees with the minority compact state domains observed in XPS data for a spin crossover molecule [4]
+
+The effect of the non-interacting sites can be probed by introducing a simulation where the non-interacting sites are replaced with sites that have a fixed value and are not free to update.
+
+<center>
+<div class="row>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/proj03_pinned_layers.png" title="Adjusting the interactions of pinned sites.  Presented at 2021 APS April meeting [3]." class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+
+Repeating the simulation, we can see what happens when the fixed value sites take a value of $J=1$ (only $J=-1$ sites are shown)
+
+<center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/gif/proj03_MCIMS_up.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<!-- <div class="caption">
+    Simulation of 3D Ising Lattice.  The top and bottom of the simulation cell have non-interacting sites, with the periodic boundary conditions along the remaining edges. Results presented at 2021 APS April meeting [3]. 
+</div> -->
+</center>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+and when the fixed value sites take a value of $J=-1$ (only $J=1$ sites are shown)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<center>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/gif/proj03_MCIMS_down.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+</center>
+
+Plotting this as a phase-transition diagram, we can see that the transition point from low-spin dominated to high-spin dominated state occurs at a different temperature depending on whether pinned sites are pinned to $J=1$ "FE pinned up", pinned to $J=-1$ "FE pinned down", or non interacting.  The change in temperature indicates a different value for the energy gap $\Delta$.
+
+<center>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/proj03_pinned_layers.png " title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
+</center>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+In a practical sense, this kind of pinning can be engineered into the system using different fabrication methods, or through heterostructure design[5].
 
-{% raw %}
+[1]<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.84.054119">Two-dimensional Ising-like model with specific edge effects for spin-crossover nanoparticles: A Monte Carlo study</a>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+[2]<a href="https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">Wikipedia: Metropolis Hastings Algorithm</a>
 
-{% endraw %}
+[3]<a href="https://meetings.aps.org/Meeting/APR21/Session/Q08.8">Determination of High-Spin to Low-Spin Phase Transition of Organic Spintronic Device by Monte Carlo Simulation of 3D Ising-like Model </a>
+
+[4]<a href="https://iopscience.iop.org/article/10.1088/1361-648X/ac6cbc/meta">Intermolecular interaction and cooperativity in an Fe(II) spin crossover molecular thin film system</a>
+
+[5]<a href="https://doi.org/10.1021/acs.jpclett.0c02209">Quantitative Study of the Energy Changes in Voltage-Controlled Spin Crossover Molecular Thin Films
+</a>
