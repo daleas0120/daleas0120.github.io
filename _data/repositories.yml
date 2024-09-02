@@ -1,6 +1,8 @@
 github_users:
   - daleas0120
 
+repo_description_lines_max: 2
+
 github_repos:
   - daleas0120/Metallurgy
   - daleas0120/VAE
