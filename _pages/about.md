@@ -22,7 +22,7 @@ subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic_ad.png
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>540255 your office number</p>
