@@ -892,6 +892,6 @@ The LSTM-AE does generate anomaly scores for power grid fault conditions, the sc
 1. [Z. A. Khan, T. Hussain, A. Ullah, S. Rho, M. Lee, and S. W. Baik, “Towards efficient electricity forecasting in residential and commercial buildings: A novel hybrid cnn with a lstm-ae based framework,” Sensors, vol. 20, no. 5, p. 1399, 2020.](https://www.mdpi.com/1424-8220/20/5/1399)
 2. [A. Saoud and A. Recioui, “Load energy forecasting based on a hybrid pso lstm-ae model,” Algerian Journal of Environmental Science and Technology, vol. 9, no. 1, 2023.]()
 3. [W. Yang, X. Li, C. Chen, and J. Hong, “Characterizing residential load patterns on multi-time scales utilizing lstm autoencoder and electricity consumption data,” Sustainable Cities and Society, vol. 84, p. 104007, 2022.](https://www.sciencedirect.com/science/article/pii/S2210670722003274)
-4. [A. S. Musleh, G. Chen, Z. Y. Dong, C. Wang, and S. Chen, “Attack detection in automatic generation control systems using lstm-based stacked autoencoders,” IEEE Transactions on Industrial Informatics, vol. 19, no. 1, pp. 153–165, 2022.](https://doi.org/10.1109/TII.2022.3178418)
+4. [A. S. Musleh, G. Chen, Z. Y. Dong, C. Wang, and S. Chen, “Attack detection in automatic generation control systems using lstm-based stacked autoencoders,” IEEE Transactions on Industrial Informatics, vol. 19, no. 1, pp. 153–165, 2022.]()
 
 
