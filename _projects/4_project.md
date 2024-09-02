@@ -9,6 +9,11 @@ category: machine learning
 
 One of the analysis techniques I used to search for explainable outliers was dimensionality reduction using algorithms such as UMAP [1].
 
+<div class="row>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/proj04_summary.png" title="Basic workflow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
