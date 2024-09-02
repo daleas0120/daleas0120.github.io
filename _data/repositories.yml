@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - daleas0120
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - daleas0120/Metallurgy
+  - daleas0120/VAE
+  - daleas0120/3d_antenna_power
+  - daleas0120/Example_notebooks
+  - GDS-Education-Community-of-Practice/DSECOP
+
+  
+  
+
+
