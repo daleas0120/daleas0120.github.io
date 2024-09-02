@@ -22,5 +22,5 @@ category: physics
 [2] <a href="https://books.google.com/books?id=_M8B6ISHxFUC&lpg=PA63&ots=Q_-y2SgSO3&dq=Kohji%20Tashiro.%20Crystal%20structure%20and%20phase%20transition%20of%20pvdf%20and%20related%20copoly-%20mers.%20Ferroelectric%20Polymers%3A%20Chemistry%20Physics%20and%20Applications%2C%2028%3A63%E2%80%93182%2C%201995.&lr&pg=PA63#v=onepage&q&f=false">Kohji Tashiro. Crystal structure and phase transition of pvdf and related copoly- mers. Ferroelectric Polymers: Chemistry Physics and Applications, 28:63–182, 1995.</a>
 
 [3] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0079670013000865">P Martins, AC Lopes, and S Lanceros-Mendez. Electroactive phases of poly (vinylidene fluoride): Determination, processing and applications. Progress in polymer science, 39(4):683–706, 2014.</a>
-
-[4] <a href="https://scholarworks.iupui.edu/handle/1805/22686">Dale, A. S. (2020). Developing an approach to improve beta-phase properties in ferroelectric pvd-hfp thin films (Masters thesis).</a>
+<!-- 
+[4] <a href="https://scholarworks.iupui.edu/handle/1805/22686">Dale, A. S. (2020). Developing an approach to improve beta-phase properties in ferroelectric pvd-hfp thin films (Masters thesis).</a> -->
