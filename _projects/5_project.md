@@ -13,7 +13,7 @@ category: physics
     </div>
 </div>
 <div class="caption">
-    Overview of processes which culminate in β-phase PVDF crystal structure. Crystal phases are denoted in circles with a depiction of the relevant configuration, physical processes used as a starting point for obtaining crystalline structure are denoted in squares. Compiled from <a href="https://www.mdpi.com/2073-4360/10/3/228">[1]</a>, <a href="https://books.google.com/books?id=_M8B6ISHxFUC&lpg=PA63&ots=Q_-y2SgSO3&dq=Kohji%20Tashiro.%20Crystal%20structure%20and%20phase%20transition%20of%20pvdf%20and%20related%20copoly-%20mers.%20Ferroelectric%20Polymers%3A%20Chemistry%20Physics%20and%20Applications%2C%2028%3A63%E2%80%93182%2C%201995.&lr&pg=PA63#v=onepage&q&f=false">[2]</a>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0079670013000865">[3]</a>.  Image source <a href="http://dx.doi.org/10.7912/C2/2435">[4]</a>.
+    Overview of processes which culminate in β-phase PVDF crystal structure. Crystal phases are denoted in circles with a depiction of the relevant configuration, physical processes used as a starting point for obtaining crystalline structure are denoted in squares. Compiled from <a href="https://www.mdpi.com/2073-4360/10/3/228">[1]</a>, <a href="https://books.google.com/books?id=_M8B6ISHxFUC&lpg=PA63&ots=Q_-y2SgSO3&dq=Kohji%20Tashiro.%20Crystal%20structure%20and%20phase%20transition%20of%20pvdf%20and%20related%20copoly-%20mers.%20Ferroelectric%20Polymers%3A%20Chemistry%20Physics%20and%20Applications%2C%2028%3A63%E2%80%93182%2C%201995.&lr&pg=PA63#v=onepage&q&f=false">[2]</a>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0079670013000865">[3]</a>.  Image source <a href="">[4]</a>.
 </div>
 
 
@@ -23,4 +23,4 @@ category: physics
 
 [3] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0079670013000865">P Martins, AC Lopes, and S Lanceros-Mendez. Electroactive phases of poly (vinylidene fluoride): Determination, processing and applications. Progress in polymer science, 39(4):683–706, 2014.</a>
 
-[4] <a href="https://dx.doi.org/10.7912/C2/2435">Dale, A. S. (2020). Developing an approach to improve beta-phase properties in ferroelectric pvd-hfp thin films (Masters thesis).</a>
+[4] <a href="">Dale, A. S. (2020). Developing an approach to improve beta-phase properties in ferroelectric pvd-hfp thin films (Masters thesis).</a>
