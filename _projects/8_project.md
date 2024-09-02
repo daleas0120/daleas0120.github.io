@@ -9,7 +9,7 @@ category: education
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3D_printed_antennas.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/3D_printed_antennas.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -18,7 +18,7 @@ category: education
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/gif/3d_antenna_models.gif" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/gif/3d_antenna_models.gif" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

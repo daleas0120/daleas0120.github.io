@@ -13,10 +13,10 @@ Langmuir Blodgett deposition was pioneered by the work of <a href="https://en.wi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj12_meniscus_1a.png" title="Meniscus immersion" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj12_meniscus_1a.png" title="Meniscus immersion" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/proj12_meniscus_2a.png" title="Meniscus emmersion" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/proj12_meniscus_2a.png" title="Meniscus emmersion" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -27,13 +27,13 @@ I inherited a KSV Langmuir Blodgett chassis and some microelectronics c. 1991, k
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj12_trough_fab.JPG" title="Milling the delrin part one" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj12_trough_fab.JPG" title="Milling the delrin part one" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/proj12_trough_fab_shellCutter.jpg" title="Milling the delrin part two" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/proj12_trough_fab_shellCutter.jpg" title="Milling the delrin part two" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/proj12_me_milling.JPG" title="Action shot" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/proj12_me_milling.JPG" title="Action shot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,7 +44,7 @@ After the trough was fabricated, I had to reverse engineer some control software
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj12_systemArchi_2.png" title="open source software architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj12_systemArchi_2.png" title="open source software architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -52,7 +52,7 @@ This included assembling and calibrating a desktop dipper from an arduino, stepp
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj12_lbTrough_small.jpg" title="rehabilitated LB trough" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj12_lbTrough_small.jpg" title="rehabilitated LB trough" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -60,7 +60,7 @@ I then built a giant plastic box to keep debris from falling onto the trough sur
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj12_trough_in_hood.jpg" title="trough in its new home" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj12_trough_in_hood.jpg" title="trough in its new home" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

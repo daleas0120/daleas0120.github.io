@@ -9,7 +9,7 @@ category: physics
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/beta_phase_approaches.png" title="Paths to β-phase PVDF" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/beta_phase_approaches.png" title="Paths to β-phase PVDF" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -24,7 +24,7 @@ Here, a 3D lattice was simulated using fixed, non-interacting boundary condition
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/gif/proj_3_3DMCIMS.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/gif/proj_3_3DMCIMS.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ The effect of the non-interacting sites can be probed by introducing a simulatio
 <center>
 <div class="row>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj03_pinned_layers.png" title="Adjusting the interactions of pinned sites.  Presented at 2021 APS April meeting [3]." class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj03_pinned_layers.png" title="Adjusting the interactions of pinned sites.  Presented at 2021 APS April meeting [3]." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -49,7 +49,7 @@ Repeating the simulation, we can see what happens when the fixed value sites tak
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/gif/proj03_MCIMS_up.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/gif/proj03_MCIMS_up.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <!-- <div class="caption">
@@ -62,7 +62,7 @@ and when the fixed value sites take a value of $J=-1$ (only $J=1$ sites are show
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/gif/proj03_MCIMS_down.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/gif/proj03_MCIMS_down.gif" title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -72,7 +72,7 @@ Plotting this as a phase-transition diagram, we can see that the transition poin
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj03_pinned_layers.png " title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj03_pinned_layers.png " title="Simulation of 3D Ising Lattice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>

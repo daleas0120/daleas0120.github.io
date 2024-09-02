@@ -13,7 +13,7 @@ A side project was learning how to improve the quality of the ferroelectric thin
     <div class="col col-lg-2">
     </div>
     <div class="col-md-auto">
-        {% include figure.html path="assets/img/proj02_sample_structure.jpg" title="Ferroelectric capacitor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj02_sample_structure.jpg" title="Ferroelectric capacitor" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="row justify-content-md-center">
     </div>
@@ -26,10 +26,10 @@ The differences in samples between those fabricated manually and those from an a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj02_bad_film.png" title="Sample dipped by hand" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj02_bad_film.png" title="Sample dipped by hand" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/proj02_lb_dep_sample.jpg" title="Sample dipped by automated Langmuir Blodgett deposition system." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/proj02_lb_dep_sample.jpg" title="Sample dipped by automated Langmuir Blodgett deposition system." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -40,10 +40,10 @@ A simple Sawyer-Tower circuit can do the trick for hysteresis measurements, but 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj02_60ML_hand.png" title="Sample dipped by hand" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj02_60ML_hand.png" title="Sample dipped by hand" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/proj02_80ML_LB.png" title="Sample dipped by automated Langmuir Blodgett deposition system." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/proj02_80ML_LB.png" title="Sample dipped by automated Langmuir Blodgett deposition system." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

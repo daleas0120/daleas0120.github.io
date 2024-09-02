@@ -82,7 +82,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_7_1.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_7_1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
     
@@ -138,7 +138,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_12_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_12_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>   
 
@@ -169,7 +169,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_16_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_16_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>     
 
@@ -185,7 +185,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_17_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_17_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>         
 
@@ -238,7 +238,7 @@ persim.bottleneck_matching(np.array(uniform_persis), np.array(norm_persis), matc
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_24_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_24_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>       
     
@@ -291,7 +291,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_29_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_29_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>     
 
@@ -334,7 +334,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_33_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_33_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>       
     
@@ -353,7 +353,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_35_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_35_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>     
     
@@ -370,7 +370,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_36_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_36_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>    
     
@@ -401,7 +401,7 @@ persim.bottleneck_matching(np.array(rings_persis), np.array(rings2_persis), matc
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj10_output_40_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj10_output_40_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>    
     

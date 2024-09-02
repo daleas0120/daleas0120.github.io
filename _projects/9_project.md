@@ -76,7 +76,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj9_output_5_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj9_output_5_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
     
@@ -115,7 +115,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj9_output_7_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj9_output_7_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
     
@@ -173,7 +173,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj9_output_10_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj9_output_10_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
     
@@ -195,7 +195,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj9_output_12_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj9_output_12_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -309,7 +309,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj9_output_22_0.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj9_output_22_0.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
