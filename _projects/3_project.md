@@ -87,5 +87,5 @@ In a practical sense, this kind of pinning can be engineered into the system usi
 
 [4]<a href="https://iopscience.iop.org/article/10.1088/1361-648X/ac6cbc/meta">Intermolecular interaction and cooperativity in an Fe(II) spin crossover molecular thin film system</a>
 
-[5]<a href="https://doi.org/10.1021/acs.jpclett.0c02209">Quantitative Study of the Energy Changes in Voltage-Controlled Spin Crossover Molecular Thin Films
+[5]<a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02209">Quantitative Study of the Energy Changes in Voltage-Controlled Spin Crossover Molecular Thin Films
 </a>
