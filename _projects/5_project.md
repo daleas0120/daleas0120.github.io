@@ -23,4 +23,4 @@ category: physics
 
 [3] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0079670013000865">P Martins, AC Lopes, and S Lanceros-Mendez. Electroactive phases of poly (vinylidene fluoride): Determination, processing and applications. Progress in polymer science, 39(4):683–706, 2014.</a>
 
-[4] <a href="http://dx.doi.org/10.7912/C2/2435">Dale, A. S. (2020). Developing an approach to improve beta-phase properties in ferroelectric pvd-hfp thin films (Masters thesis).</a>
+[4] <a href="https://dx.doi.org/10.7912/C2/2435">Dale, A. S. (2020). Developing an approach to improve beta-phase properties in ferroelectric pvd-hfp thin films (Masters thesis).</a>
