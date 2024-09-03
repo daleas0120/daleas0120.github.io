@@ -9,7 +9,7 @@ category: physics
 
 The history of the physics department is deeply entwined with a 1970's era Bruker EPR like this one from the University of Oregon
 
-<center>
+<!-- <center>
  <div class="col col-lg-2">
     </div>
     <div class="col-md-auto">
@@ -17,7 +17,7 @@ The history of the physics department is deeply entwined with a 1970's era Bruke
     </div>
     <div class="row justify-content-md-center">
     </div>
-</center>
+</center> -->
 
 complete with a nearly identical console for controlling the system.  Unfortunately, the CRT display in our system died about half-way through my Ph.D. studies.  As the console is still our only way of accessing the EPR, this meant the entire system became nonfunctional.
 
