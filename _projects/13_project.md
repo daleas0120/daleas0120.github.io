@@ -2,7 +2,7 @@
 layout: page
 title: Restoration of 1970's EPR
 description: Vintage lab equipment woes
-img: assets/gif/proj13_guts.jpg
+img: assets/img/proj13_guts.jpg
 importance: 3
 category: physics
 ---
