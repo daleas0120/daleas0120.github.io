@@ -24,6 +24,4 @@ where algorithmic choices are made for each step in the workflow.  I partially s
     Visualizing the feature vectors in an interactive 3D embedding.
 </div>
 
-
-
 [1]<a href="">UMAP</a>

@@ -13,7 +13,7 @@ The history of the physics department is deeply entwined with a 1970's era Bruke
  <div class="col col-lg-2">
     </div>
     <div class="col-md-auto">
-        {% include figure.liquid path="https://camcor.uoregon.edu/equipment/bruker-elexsys-e-500-a-epr-spectrometer/" title="Image from [University of Oregon](https://camcor.uoregon.edu/equipment/bruker-elexsys-e-500-a-epr-spectrometer/)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="https://camcor.uoregon.edu/site/wp-content/uploads/2015/11/bruker_E500.jpg" title="Image from [University of Oregon](https://camcor.uoregon.edu/equipment/bruker-elexsys-e-500-a-epr-spectrometer/)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="row justify-content-md-center">
     </div>
