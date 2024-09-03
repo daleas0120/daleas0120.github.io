@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Restoration of 1970's EPR
+title: Restoration of 1970s EPR
 description: Vintage lab equipment woes
 img: assets/img/proj13_guts.jpg
 importance: 3
