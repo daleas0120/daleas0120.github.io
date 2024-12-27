@@ -38,6 +38,6 @@ social: true  # includes social icons at the bottom of the page
 
 Hello World!
 
-I am a <a href="">Eric and Wendy Schmidt AI in Science Postdoctoral Fellow</a> at the University of Toronto in the Materials Science and Engineering Department.  I research explainable and trustworthy AI for materials science.  
+I am a <a href="https://www.schmidtsciences.org/schmidt-ai-in-science-postdocs/">Eric and Wendy Schmidt AI in Science Postdoctoral Fellow</a> at the University of Toronto in the <a href="https://mse.utoronto.ca/">Department of Materials Science & Engineering</a>.  I research explainable and trustworthy AI for materials science.  
 
-My work has applications in <a href="https://patents.google.com/patent/US20220238537A1/en">spintronics</a>, <a href="https://doi.org/10.36227/techrxiv.171392756.66802879/v1">black-box model exploration</a>, <a href="" >Monte-Carlo simulation </a>, <a href="https://doi.org/10.1117/12.3015657">data domain gap analysis</a>, and <a href="https://github.com/GDS-Education-Community-of-Practice/DSECOP/tree/main/Connecting_MonteCarlo_to_ModernAI">physics education</a>.
+My work has applications in <a href="https://patents.google.com/patent/US20220238537A1/en">spintronics</a>, <a href="https://doi.org/10.36227/techrxiv.171392756.66802879/v1">black-box model exploration</a>, <a href="https://doi.org/10.1088/1361-648X/ac6cbc">Monte-Carlo simulation</a>, <a href="https://doi.org/10.1117/12.3015657">data domain gap analysis</a>, and <a href="https://github.com/GDS-Education-Community-of-Practice/DSECOP/tree/main/Connecting_MonteCarlo_to_ModernAI">physics education</a>.
