@@ -3,7 +3,7 @@
     "name": "Ashley S. Dale",
     "label": "",
     "image": "",
-    "email": "daleas@iu.edu",
+    "email": "a.dale.0002 (at) gmail (dot) com",
     "phone": "",
     "url": "",
     "summary": "Trustworthy AI and Condensed Matter Physics",
@@ -23,6 +23,11 @@
     ]
   },
   "work": [
+    {
+      "name": "University of Toronto",
+      "position": "Postdoctoral Researcher",
+      "endDate": "2026"
+    },
     {
       "name": "Johns Hopkins University Applied Physics Lab",
       "position": "Machine Learing R&D Intern",
