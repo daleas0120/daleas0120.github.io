@@ -1,0 +1,71 @@
+---
+layout: page
+permalink: /news/
+title: news
+description: Workshops, talks, papers, and media appearances.
+nav: true
+nav_order: 4
+---
+
+{% assign posts = site.data.news | sort: "date" | reverse %}
+{% assign kinds = site.data.news | map: "kind" | uniq | sort %}
+
+<div class="news-filters" role="group" aria-label="Filter posts">
+  <button type="button" class="news-filter active" data-kind="all">All</button>
+  {% for k in kinds %}
+    <button type="button" class="news-filter" data-kind="{{ k | slugify }}">{{ k }}</button>
+  {% endfor %}
+</div>
+
+<div class="news-feed">
+{% assign current_year = "" %}
+{% for post in posts %}
+  {% assign year = post.date | slice: 0, 4 %}
+  {% if year != current_year %}
+    {% unless current_year == "" %}</div>{% endunless %}
+    <div class="news-year-group">
+    <h2 class="news-year-heading">{{ year }}</h2>
+    {% assign current_year = year %}
+  {% endif %}
+
+  <article class="news-post" data-kind="{{ post.kind | slugify }}">
+    {% if post.image %}<img class="news-post-image" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ post.image | prepend: 'assets/img/' | relative_url }}{% endif %}" alt="{{ post.image_alt | default: post.title }}"{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} loading="lazy">{% endif %}
+    <div class="news-post-meta">
+      <span class="news-kind">{{ post.kind }}</span>
+      {% if post.date.size == 10 %}<time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% endif %}
+      {% if post.role %}<span class="news-role">{{ post.role }}</span>{% endif %}
+    </div>
+    <h3 class="news-post-title">
+      {% if post.url %}<a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </h3>
+    {% if post.venue %}<div class="news-venue">{{ post.venue }}</div>{% endif %}
+    {% if post.summary %}<p class="news-summary">{{ post.summary }}</p>{% endif %}
+    {% if post.image and post.image_credit %}<div class="news-credit">Photo: {{ post.image_credit }}</div>{% endif %}
+    {% if post.url and post.summary %}
+      <a class="news-more" href="{{ post.url }}" target="_blank" rel="noopener">{{ post.link_text | default: "Read more" }} &rarr;</a>
+    {% endif %}
+  </article>
+{% endfor %}
+{% unless current_year == "" %}</div>{% endunless %}
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll(".news-filter");
+    var posts = document.querySelectorAll(".news-post");
+    var groups = document.querySelectorAll(".news-year-group");
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var kind = btn.getAttribute("data-kind");
+        buttons.forEach(function (b) { b.classList.toggle("active", b === btn); });
+        posts.forEach(function (p) {
+          p.hidden = kind !== "all" && p.getAttribute("data-kind") !== kind;
+        });
+        // Hide year headings that have no visible posts left.
+        groups.forEach(function (g) {
+          g.hidden = !g.querySelector(".news-post:not([hidden])");
+        });
+      });
+    });
+  })();
+</script>

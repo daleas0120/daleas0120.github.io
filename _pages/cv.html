@@ -1,0 +1,21 @@
+---
+layout: none
+permalink: /cv/
+title: cv
+nav: true
+nav_order: 5
+# The nav link downloads this file directly; /cv/ redirects to it for old links.
+nav_file: /assets/pdf/CV_Dale_Ashley_website.pdf
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV | {{ site.first_name }} {{ site.last_name }}</title>
+    <meta http-equiv="refresh" content="0; url={{ page.nav_file | relative_url }}">
+    <link rel="canonical" href="{{ page.nav_file | relative_url }}">
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ page.nav_file | relative_url }}">the CV (PDF)</a>…</p>
+  </body>
+</html>

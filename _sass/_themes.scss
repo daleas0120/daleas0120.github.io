@@ -1,0 +1,146 @@
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+
+:root {
+  --global-bg-color: #fbfaf7;
+  --global-code-bg-color: rgba(26, 107, 115, 0.06);
+  --global-text-color: #1f2328;
+  --global-text-color-light: #646a72;
+  --global-theme-color: #1a6b73;
+  --global-hover-color: #1a6b73;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #1f2328;
+  --global-footer-text-color: #c4c8ce;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #646a72;
+  --global-divider-color: rgba(31, 35, 40, 0.1);
+  --global-card-bg-color: #ffffff;
+  --global-highlight-color: #b0442a;
+  --global-back-to-top-bg-color: rgba(31, 35, 40, 0.4);
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #ffffff;
+  --global-newsletter-text-color: #1f2328;
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+
+  #light-toggle-system {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  .repo-img-light {
+    display: block;
+  }
+  .repo-img-dark {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+    bottom: $back-to-top-bottom;
+    right: $back-to-top-right;
+    height: $back-to-top-height;
+    width: $back-to-top-width;
+    z-index: $back-to-top-z-index;
+  }
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #15181c;
+  --global-code-bg-color: #22272d;
+  --global-text-color: #e7e4dd;
+  --global-text-color-light: #9aa1a9;
+  --global-theme-color: #6cc3c0;
+  --global-hover-color: #6cc3c0;
+  --global-hover-text-color: #15181c;
+  --global-footer-bg-color: #0f1114;
+  --global-footer-text-color: #9aa1a9;
+  --global-footer-link-color: #e7e4dd;
+  --global-distill-app-color: #e7e4dd;
+  --global-divider-color: #2c3137;
+  --global-card-bg-color: #1d2126;
+  --global-highlight-color: #e58a6b;
+  --global-back-to-top-bg-color: rgba(231, 228, 221, 0.5);
+  --global-back-to-top-text-color: #15181c;
+  --global-newsletter-bg-color: #1d2126;
+  --global-newsletter-text-color: #e7e4dd;
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+
+  .repo-img-light {
+    display: none;
+  }
+  .repo-img-dark {
+    display: block;
+  }
+}
+
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}
+
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+}

@@ -1,0 +1,219 @@
+# News feed shown on /news/, rendered newest first.
+#
+# Fields:
+#   date     (required) YYYY-MM-DD if known, otherwise just YYYY. Used for sorting.
+#   kind     (required) label shown above the title, e.g. Workshop, Talk, Abstract,
+#            Paper, Media, Recognition
+#   title    (required)
+#   venue    where it happened or was published
+#   summary  one or two sentences, shown as the post body (optional)
+#   url      link for the title and the "Read more" link (optional)
+#   link_text  text for the link (default: "Read more")
+#   role     small tag such as "organizer", "first author", "co-author" (optional)
+#   image    picture under assets/img/ (e.g. news/act-africa.jpg) or a full https://
+#            URL (optional; shown on the homepage cards and the news page)
+#   image_credit  photographer credit shown on the news page (optional)
+#   image_alt  description of the picture for screen readers (optional)
+#   image_position  which part to keep when cropping: center (default), top, bottom
+#
+# To add a post, copy an entry and edit it. Order in this file doesn't matter.
+
+- date: "2026-09-23"
+  kind: Recognition
+  title: Named a 2026 Tayebati Postdoctoral Fellow at MIT
+  venue: MIT Schwarzman College of Computing
+  summary: >-
+    I joined the second cohort of Tayebati Fellows, who pursue research at the
+    intersection of AI and other fields. My faculty mentors are Mingda Li
+    (Nuclear Science and Engineering), Youssef Marzouk (AeroAstro), and
+    Tess Smidt (EECS).
+  # The original page (computing.mit.edu/news/mit-schwarzman-college-of-computing-
+  # announces-second-cohort-of-tayebati-fellows/) was removed; this is the
+  # Internet Archive copy from October 3, 2026.
+  url: https://web.archive.org/web/20261003043834/https://computing.mit.edu/news/mit-schwarzman-college-of-computing-announces-second-cohort-of-tayebati-fellows/
+  link_text: Read the announcement (archived)
+  image: news/tayebati.jpg
+  image_alt: Ashley S. Dale standing on Killian Court in front of MIT's Great Dome
+
+- date: "2026-09-06"
+  kind: Talk
+  title: "AI for Connecting and Transforming Africa (ACT-Africa 2026)"
+  venue: MIDAS (University of Michigan) and Addis Ababa University · Addis Ababa, Ethiopia
+  summary: >-
+    I gave an invited talk at this workshop on AI foundation models for
+    researchers, developers, and policymakers working on Africa's AI future,
+    supported by Schmidt Sciences.
+  url: https://midas.umich.edu/events/act-africa-2026/
+  link_text: Event page
+  role: invited speaker
+  image: news/ACT_Africa.jpg
+  image_alt: Group photo of ACT-Africa 2026 participants in front of the workshop banner
+
+- date: "2026-07-21"
+  kind: Talk
+  title: "So You Want to Build a Digital Twin: A Zeroth Order Perspective"
+  venue: "CECAM Workshop: AI Methods to Accelerate the Simulation and Discovery of Materials · Purdue University, West Lafayette, Indiana"
+  url: https://www.cecam.org/workshop-details/ai-methods-to-accelerate-the-simulation-and-discovery-of-materials-1555
+  link_text: Workshop page
+  role: invited speaker
+  image: news/cecam.jpg
+  image_alt: Group photo of CECAM workshop participants on a lawn at Purdue University in front of a large red-and-orange arch sculpture
+
+- date: "2026-05-28"
+  kind: Talk
+  title: "Trustworthy AI Tools for Science: A Philosophical, Computational, and Experimental Perspective"
+  venue: "109th Canadian Chemistry Conference & 76th Canadian Chemical Engineering Conference (x2026) · Session: Applied AI/ML in Chemistry and Chemical Engineering Research"
+  summary: >-
+    Trustworthiness for scientific AI/ML along three dimensions: philosophical
+    frameworks for human alignment in the lab, explainable uncertainty
+    quantification (xUQ) to diagnose a model that fails to make trustworthy
+    predictions, and progress toward using xUQ in an autonomous battery-testing
+    experiment. With Jason Hattrick-Simpers.
+  url: https://www.xcdsystem.com/cic/program/1GHc9M3/index.cfm?pgid=3216&sid=31450&abid=125209
+  link_text: Abstract
+  role: speaker
+  image: news/toronto_web.jpg
+  image_alt: Toronto skyline with the CN Tower, seen across Lake Ontario
+
+# TODO: confirm the year; the page blocks automated access. Likely 2026, since it
+# appears to cover the November 2025 workshop below.
+- date: "2026"
+  kind: Media
+  title: U of T Schmidt AI Fellows bring foundation models to the forefront of scientific research
+  venue: University of Toronto, Faculty of Arts & Science News
+  url: https://www.artsci.utoronto.ca/news/u-t-schmidt-ai-fellows-bring-foundation-models-forefront-scientific-research
+  link_text: Read the article
+
+- date: "2026-03-18"
+  kind: Media
+  title: Spotlighted in the Schmidt AI in Science March magazine
+  venue: Schmidt AI in Science, University of Toronto · LinkedIn
+  summary: >-
+    The March magazine spotlights my work building the foundation for
+    trustworthy AI in experimental science: rigorously evaluating the AI
+    systems used in laboratory discovery, and bringing diverse AI approaches
+    under one umbrella to bridge advanced algorithms and real-world science.
+  url: https://www.linkedin.com/posts/schmidt-ai-in-science-university-of-toronto_our-march-magazinespotlightsashley-s-dale-activity-7440057921859665920-BY0g
+  link_text: View the post
+  image: news/mag_1.jpg
+  image_alt: "Cover of the March 2026 Schmidt AI in Science Postdoctoral Fellows magazine: Ashley S. Dale smiling at a chalkboard of equations and neural-network sketches, with the headline Trustworthy AI Toolkit for Science"
+  image_position: top
+
+- date: "2025-11-03"
+  kind: Workshop
+  title: AI Foundation Models for Science Workshop 2025
+  venue: University of Toronto · November 3–5, 2025
+  summary: >-
+    A three-day, hands-on workshop on using AI foundation models for
+    interdisciplinary science, with keynote and participant lectures,
+    tutorials, and a hackathon. I co-organized it with fellow Schmidt AI in
+    Science Postdoctoral Fellows at U of T.
+  url: https://ai-for-science.org/2025/index.html
+  link_text: Workshop site
+  role: organizer
+  image: news/fomo.jpeg
+  image_alt: Group photo of AI Foundation Models for Science Workshop participants on a staircase, wearing matching workshop t-shirts
+  image_position: top
+
+- date: "2025-03-20"
+  kind: Recognition
+  title: "Meet U of T's newest cohort of Schmidt AI in Science Postdoctoral Fellows"
+  venue: Schmidt AI in Science Postdoctoral Fellowship, University of Toronto
+  summary: >-
+    U of T introduced its newest cohort of Schmidt AI in Science Postdoctoral
+    Fellows, featuring my project TRAITS (Trustworthy AI Toolkit for Science):
+    open-source software to support AI/ML models scientists can trust,
+    supervised by Jason Hattrick-Simpers in Materials Science & Engineering.
+  url: https://schmidtfellows.utoronto.ca/from-investigating-bird-species-to-deepening-our-knowledge-of-the-universe-meet-u-of-ts-newest-cohort-of-schmidt-ai-in-science-postdoctoral-fellows/
+  link_text: Read the article
+
+- date: "2025-05-13"
+  kind: Media
+  title: Making AI work beyond the lab
+  venue: BetaKit, presented by the Vector Institute
+  summary: >-
+    A feature on TRAITS, the Trustworthy AI Toolkit for Science, which our
+    team at U of T built to help scientists decide whether they can trust
+    the results they get from AI. Includes a photo of my TRAITS presentation
+    at Remarkable 2025.
+  url: https://betakit.com/making-ai-work-beyond-the-lab/
+  link_text: Read the article
+  image: https://cdn.betakit.com/wp-content/uploads/2025/05/Ashley-Dale-TakenBy-Leanna-Vu-IPhone.jpeg
+  image_alt: Ashley S. Dale presenting the TRAITS poster to an attendee at Remarkable 2025
+  image_credit: Leanna Vu, Vector Institute
+
+- date: "2025-07-29"
+  kind: Recognition
+  title: Named a Purdue Engineering Trailblazers Fellow
+  venue: Purdue University College of Engineering
+  url: https://engineering.purdue.edu/Trailblazers/fellows/2025
+  link_text: Fellow profile
+
+- date: "2025"
+  kind: Abstract
+  title: Evaluating the limits of the physics learned by a machine learning model
+  venue: APS Global Physics Summit
+  role: first author
+
+- date: "2025"
+  kind: Talk
+  title: Trustworthy Machine Learning and Artificial Intelligence Frameworks for Scientists
+  venue: APS Global Physics Summit
+  role: invited speaker
+  image: news/aps.jpg
+  image_alt: Ashley S. Dale standing in front of the APS Global Physics Summit display screen
+
+- date: "2025"
+  kind: Abstract
+  title: Probing Feature Representations in ML Models for Materials Discovery Through Loss
+  venue: APS Global Physics Summit
+  role: first author
+
+- date: "2024"
+  kind: Abstract
+  title: "Mind the (domain) gap: metrics for the differences in synthetic and real data distributions"
+  venue: "SPIE Synthetic Data for Artificial Intelligence and Machine Learning: Tools, Techniques, and Applications II"
+  url: https://doi.org/10.1117/12.3015657
+  link_text: Abstract
+  role: first author
+
+- date: "2024"
+  kind: Abstract
+  title: "Activation energy studies for Fe-II spin crossover molecule [Fe(HB(tz)3)2] devices"
+  venue: APS March Meeting · Abstract V00.173
+  role: first author
+
+- date: "2023"
+  kind: Abstract
+  title: "All patched up: effective integration of real and synthetic features into a single image for object detection"
+  venue: IEEE Applied Imagery Pattern Recognition Workshop (AIPR)
+  url: https://doi.org/10.1109/AIPR60534.2023.10440704
+  link_text: Abstract
+  role: first author
+
+- date: "2023"
+  kind: Abstract
+  title: Determination of magnetic anisotropy due to spin-orbit coupling in Fe(II) spin crossover thin film
+  venue: APS March Meeting · Abstract Q57.011
+  role: first author
+
+- date: "2022"
+  kind: Abstract
+  title: CNN-based network has Network Anisotropy — work harder to learn rotated feature than non-rotated feature
+  venue: IEEE Applied Imagery Pattern Recognition Workshop (AIPR)
+  url: https://doi.org/10.1109/AIPR57179.2022.10092224
+  link_text: Abstract
+  role: first author
+
+- date: "2022"
+  kind: Abstract
+  title: 3D Ising model studies of mixed-state domain formation in spin crossover molecular systems
+  venue: APS March Meeting · Abstract Z70.012
+  role: first author
+
+- date: "2021"
+  kind: Abstract
+  title: Determination of High-Spin to Low-Spin Phase Transition of Organic Spintronic Device by Monte Carlo Simulation of 3D Ising-like Model
+  venue: APS April Meeting · Abstract Q08.008
+  role: first author
+
